@@ -1,0 +1,9 @@
+version: "3.2"
+services:
+  twilio_bot:
+    container_name: twilio_bot
+    image: twilio_bot
+    build: twilio_bot
+    restart: always
+    env_file:
+      - ./twilio_bot/.env
