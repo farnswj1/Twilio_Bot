@@ -8,7 +8,7 @@ Also, you must have a Twilio account set up in order to use this program.
 
 
 ## Setup
-First, create a ```.env``` file inside the ```app``` directory.
+First, create a ```.env``` file inside the ```twilio_bot``` directory.
 Then, add the required environment variables, as shown below:
 ```
 ACCOUNT_SID=[SID goes here]
